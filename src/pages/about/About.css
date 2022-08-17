@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(32, 29, 29);
+    color: white;
+}
+
+.main-about{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.myname{
+    font-weight: 900;
+}
+.frontend{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 30px;
+    margin: 30px;
+}
+
+.about-p{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.about-p{
+    font-size: xx-large;
+    /* font-weight: 500; */
+}
+
+.about-p1{
+    font-weight: 700;
+}
