@@ -11,17 +11,14 @@ import Contact from "./pages/contact/Contact";
 function App() {
   return (
     <body>
-      <Nav>
+      <Nav/>
         <Routes>
-        <Route path="/" element={<About />} />
-           <Route  path="work" element={<Work/>}/>
-           <Route path="resume" element={<Resume/>} />
-           <Route path="contact" element={<Contact/>} />
-           <Route  />
-
+           <Route path="/" element={<About />} />
+           <Route  path="/work" element={<Work/>}/>
+           <Route path="/resume" element={<Resume/>} />
+           <Route path="/contact" element={<Contact/>} />
            
         </Routes>
-      </Nav>
     </body>
   );
 }
