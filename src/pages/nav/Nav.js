@@ -13,6 +13,8 @@ function Nav() {
       <a class="nav-item nav-link" href="#">Contact</a>
       <a class="nav-item nav-link" href="#">Pricing</a>
       <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+
     </div>
   </div>
 </nav>
