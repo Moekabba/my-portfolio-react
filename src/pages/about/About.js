@@ -7,7 +7,7 @@ function About() {
     <div className="main-about">
       {/* this stay to the left */}
       <h1 className="myname"> MAHAMADOU KABBA</h1>
-      <img className="profile-image" src="imgs/bb.png" alt="" />
+      <img className="profile-image" src="imgs/kabzz.png" alt="" />
 
       <div className="about-text">
         <h1 className="frontend">Frontend, Backend Developer and UX</h1>
