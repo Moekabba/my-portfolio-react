@@ -1,54 +1,53 @@
-body{
-    background-color: rgb(32, 29, 29);
-    color: white;
+body {
+  background-color: rgb(32, 29, 29);
+  color: white;
 }
 
-.main-about{
-    margin: 20px;
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-    
+.main-about {
+  margin: 20px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.myname{
-    font-weight: 900;
+.myname {
+  font-weight: 900;
 }
-.frontend{
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 3.5rem;
-    padding: 20px;
-    margin: 20px;
+.frontend {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding: 20px;
+  margin: 20px;
 }
-.about-text{
-    /* display: flex;align-items: center;justify-content: center; */
-    /* display: flex; */
-    /* margin-left: auto;
+.about-text {
+  /* display: flex;align-items: center;justify-content: center; */
+  /* display: flex; */
+  /* margin-left: auto;
     margin-right: auto */
 }
 
-.about-p1{
-    font-size: xx-large;
-    display: flex;
-    justify-content: center;
-    font-weight: 600;
-    font-weight: 700;
+.about-p1 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-weight: 700;
 }
-.about-p{
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+.about-p {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-image {
   margin: 20px;
   padding: 20px;
-    height: 20rem;
-    width: 17rem;
-  
+  height: 24rem;
+  width: 21rem;
+  border: 5;
+  border-radius: 50%;
 }
