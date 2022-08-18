@@ -6,7 +6,9 @@ body{
 .main-about{
     margin: 20px;
     padding: 20px;
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
     
 }
 
@@ -16,22 +18,37 @@ body{
 .frontend{
     display: flex;
     justify-content: center;
-    font-weight: 600;
-    padding: 30px;
-    margin: 30px;
+    font-weight: 700;
+    font-size: 3.5rem;
+    padding: 20px;
+    margin: 20px;
 }
-
-.about-p{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
-.about-p{
-    font-size: xx-large;
-    /* font-weight: 500; */
+.about-text{
+    /* display: flex;align-items: center;justify-content: center; */
+    /* display: flex; */
+    /* margin-left: auto;
+    margin-right: auto */
 }
 
 .about-p1{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
     font-weight: 700;
+}
+.about-p{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.profile-image {
+  margin: 20px;
+  padding: 20px;
+    height: 20rem;
+    width: 17rem;
+  
 }
