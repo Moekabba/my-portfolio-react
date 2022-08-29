@@ -1,0 +1,15 @@
+#work-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+#p2 {
+  width: 60rem;
+}
+.p-div{
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: cursive;
+    font-style: inherit;
+}
