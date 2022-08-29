@@ -4,30 +4,31 @@ import "./Work.css";
 function Work() {
   return (
     <div class="d-flex flex-column" id="work-id">
-      <div class="p-2">
+      <p className="p-div">Here are some of the projects I made while learning to code.</p>
+      <div class="p-2" id="p2">
         <iframe
           src="https://jpmare29.github.io/project-1-group-8-columbia/"
-          style={{ width: "200%", height: "47rem" }}
+          style={{ width: "100%", height: "47rem" }}
         ></iframe>
       </div>
       <br></br>
-      <div class="p-2">
+      <div class="p-2" id="p2">
         <iframe
           src="https://moekabba.github.io/weather-dasboard/"
-          style={{ width: "200%", height: "45rem" }}
+          style={{ width: "100%", height: "45rem" }}
         ></iframe>
       </div>
       <br></br>
 
-      <div class="p-2">
+      <div class="p-2" id="p2">
         <iframe
-          src="https://moekabba.github.io/portfolio-generator/"
-          style={{ width: "200%", height: "45rem" }}
+          src="https://moekabba.github.io/simple-js-calculator/"
+          style={{ width: "100%", height: "45rem" }}
         ></iframe>
       </div>
       <br></br>
 
-      <div>
+      <div id="p2">
         <iframe
           src=" https://moekabba.github.io/code-quiz/"
           style={{ width: "100%", height: "45rem" }}

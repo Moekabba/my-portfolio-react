@@ -4,7 +4,10 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top ">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark static-top "
+      id="div-nav"
+    >
       {/* <a class="navbar-brand" href="#">Navbar</a> */}
       <div class="container">
         <button
@@ -30,15 +33,10 @@ function Nav() {
               </li>
               <li>
                 <Link to="work" className="nav-link">
-                  <big style={{ color: "m green " }}>Works</big>
+                  <big style={{ color: "m green " }}>Work</big>
                 </Link>
               </li>
 
-              <li>
-                <Link to="resume" className="nav-link">
-                  <big style={{ color: "m green " }}>Resume</big>
-                </Link>
-              </li>
               <li>
                 <Link to="contact" className="nav-link">
                   <big style={{ color: "m green " }}>Get In Touch</big>

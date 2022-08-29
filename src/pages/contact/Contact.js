@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
 
 function Contact() {
   return (
-    <div>Contact
-        <p>
-            what tf 
-        </p>
+    <div>
+      <p>LET'S CONNECT</p>
+      <div class="col-sm">
+        <li>
+          <a href="imgs/MAHAMADOU KABBA.docx" class="active text-white">
+            <p>Resume</p>
+          </a>
+        </li>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Contact  
+export default Contact;
