@@ -1,13 +1,9 @@
-body {
-}
-
 Form {
   background-color: rgb(218, 215, 212);
-
   color: #000;
   margin: 10px;
   padding: 30px;
-  width: 40%;
+  width: 97%;
 }
 input {
   width: 80%;
@@ -22,4 +18,18 @@ input[type="text"] {
   padding: 12px 20px;
   margin: 18px 0;
   box-sizing: border-box;
+}
+.contact-div {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.conect-p {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding: 2rem;
 }

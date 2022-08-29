@@ -5,9 +5,9 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
-      <p>LET'S CONNECT</p>
-      <Form>
+    <div className="contact-div">
+      <p className="conect-p">LET'S CONNECT</p>
+      <Form className="fromfrom">
         <h4>It's your turn, tell me about youself</h4>
         <Form.Group className="mb-3">
           <Form.Label>Your name *</Form.Label>
@@ -33,39 +33,31 @@ function Contact() {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label> General Message</Form.Label>
-          <Form.Control type="text" placeholder="" style={{}} />
+          <Form.Control type="text" placeholder="" />
         </Form.Group>
         <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
       <span className="social-div">
-        {/* <ion-icon name="mail-outline" size="large">
-          <p> Mkabba34@gmail.com</p>
-        </ion-icon> */}
-        <p>Email: Mkabba34@gmail.com</p>
+        <h2>Email: Mkabba34@gmail.com</h2>
         <br></br>
         <a href="https://www.linkedin.com/in/mahamadou-kabba-747945221/">
           <ion-icon name="logo-linkedin" size="large"></ion-icon>
         </a>
-
+        <br></br>
         <a href="https://github.com/moekabba">
           <ion-icon name="logo-github" size="large"></ion-icon>
         </a>
         <br></br>
+        <br></br>
+        <h4>Resume</h4>
+        <a href="imgs/MAHAMADOU KABBA.docx" class="active text-white">
+          <ion-icon name="document-attach-outline" size="large"></ion-icon>
+        </a>
       </span>
 
-      <div class="col-sm">
-        <li>
-          
-            
-            <ion-icon name="document-attach-outline">
-            <p>Resume</p>
-            <a href="imgs/MAHAMADOU KABBA.docx" class="active text-white"></a>
-            </ion-icon>
-          
-        </li>
-      </div>
+      <div class="col-sm"></div>
     </div>
   );
 }
