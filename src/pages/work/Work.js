@@ -34,6 +34,12 @@ function Work() {
           style={{ width: "100%", height: "45rem" }}
         ></iframe>
       </div>
+      <div id="p2">
+        <iframe
+          src=" https://wdagambia.com/"
+          style={{ width: "100%", height: "45rem" }}
+        ></iframe>
+      </div>
     </div>
   );
 }

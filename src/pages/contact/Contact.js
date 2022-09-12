@@ -52,7 +52,7 @@ function Contact() {
         <br></br>
         <br></br>
         <h4>Resume</h4>
-        <a href="imgs/MAHAMADOU KABBA.docx" class="active text-white">
+        <a href="imgs/KABBA's resume.docx" class="active text-white">
           <ion-icon name="document-attach-outline" size="large"></ion-icon>
         </a>
       </span>
