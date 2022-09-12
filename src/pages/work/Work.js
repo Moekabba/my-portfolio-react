@@ -4,7 +4,9 @@ import "./Work.css";
 function Work() {
   return (
     <div class="d-flex flex-column" id="work-id">
-      <p className="p-div">Here are some of the projects I made while learning to code.</p>
+      <p className="p-div">
+        Here are some of the projects I made while learning to code.
+      </p>
       <div class="p-2" id="p2">
         <iframe
           src="https://jpmare29.github.io/project-1-group-8-columbia/"
@@ -34,6 +36,8 @@ function Work() {
           style={{ width: "100%", height: "45rem" }}
         ></iframe>
       </div>
+      <br></br>
+      <h3> </h3>
       <div id="p2">
         <iframe
           src=" https://wdagambia.com/"
