@@ -1,3 +1,4 @@
+// this folder is  deprecated
 import React from "react";
 // import selie from './imgs/profile.jpg';
 import "./About.css";
