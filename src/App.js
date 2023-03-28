@@ -351,7 +351,7 @@ function App() {
         >
           <div class="w-100">
             <h2 class="mb-5">Hobbies and Interests </h2>
-            <p>In my spare time, like to play vidoe games or play soccer.</p>
+            <p>In my spare time, I like to play vidoe games and soccer.</p>
 
             <p>
               I also like spending time with my family and friends when I'm not
