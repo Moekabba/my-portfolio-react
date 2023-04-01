@@ -82,16 +82,17 @@ function App() {
               </a>
             </div>
             <p class="lead mb-5">
-              C# software developer with an interest in electronic controls, and
+             Full-Stack C# .NET software developer with an interest in electronic controls, and
               designs .
             </p>
-            <a href="https://github.com/moekabba">
-              <ion-icon name="logo-github" size="large"></ion-icon>
-            </a>
-
-            <a href="https://www.linkedin.com/in/mahamadou-kabba-747945221/">
-              <ion-icon name="logo-linkedin" size="large"></ion-icon>
-            </a>
+            
+            <div class="social-icons">
+            <a class="social-icon" href="https://www.linkedin.com/in/mahamadou-kabba-747945221/!" ><i class="fa fa-linkedin"></i></a>
+            <a class="social-icon" href="https://github.com/moekabba"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="#!"
+              ><i class="fab fa-facebook-f"></i></a>
+          </div>
           </div>
         </section>
 
@@ -115,17 +116,17 @@ function App() {
                   project I worked on.
                 </p>
                 <a href="https://jpmare29.github.io/project-1-group-8-columbia/">
-                  <i class="fas fa-link"></i>
+                  <i class="fas fa-link info"></i>
                 </a>
-                <a href="https://jpmare29.github.io/project-1-group-8-columbia/">
-                  <i class="fab fa-github ml-3"></i>
+                <a href="https://github.com/jpmare29/project-1-group-8-columbia">
+                  <i class="fab fa-github ml-5"></i>
                 </a>
-                {/* <div class="p-2" id="p2"> */}
+           
                 <iframe
                   src="https://jpmare29.github.io/project-1-group-8-columbia/"
                   style={{ width: "100%", height: "30rem" }}
                 ></iframe>
-                {/* </div> */}
+                
               </div>
             </div>
 
@@ -261,7 +262,7 @@ function App() {
                 {/* <p>GPA: 2.9</p> */}
               </div>
               <div class="resume-date text-md-right">
-                <span class="text-primary">January 2018 - May 2021</span>
+                <span class="text-info">January 2018 - May 2021</span>
               </div>
             </div>
 
@@ -272,7 +273,7 @@ function App() {
                 {/* <p>GPA: 0.0</p> */}
               </div>
               <div class="resume-date text-md-right">
-                <span class="text-primary"> Current</span>
+                <span class="text-info"> Current</span>
               </div>
             </div>
           </div>
@@ -287,10 +288,9 @@ function App() {
           <div class="w-100">
             <h2 class="mb-5">Skills</h2>
 
-            <div class="subheading mb-3">
-              Programming Languages &amp; Software
-            </div>
-            {/* <ul class="list-inline dev-icons">
+            <div class="subheading mb-3">Programming Languages & Tools</div>
+
+            <ul class="list-inline dev-icons">
               <li class="list-inline-item">
                 <i class="fab fa-html5"></i>
               </li>
@@ -304,18 +304,30 @@ function App() {
                 <i class="fab fa-react"></i>
               </li>
               <li class="list-inline-item">
-                <i class="fab fa-python"></i>
-              </li>
-              <li class="list-inline-item">
                 <i class="fab fa-node-js"></i>
               </li>
+              <li class="list-inline-item">
+                <i class="fab fa-less"></i>
+              </li>{" "}
               <li class="list-inline-item">
                 <i class="fab fa-wordpress"></i>
               </li>
               <li class="list-inline-item">
+                C#<i class=""></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-docker"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-aws"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-github"></i>
+              </li>
+              <li class="list-inline-item">
                 <i class="fab fa-npm"></i>
               </li>
-            </ul> */}
+            </ul>
 
             <div class="subheading mb-3">Tools</div>
             <ul class="fa-ul mb-0">
