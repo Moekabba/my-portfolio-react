@@ -75,24 +75,33 @@ function App() {
               <span class="text-info">KABBA</span>
             </h1>
             <div class="subheading mb-5">
-              New York, NY <br></br>
-              .(347)882-9510. <br></br>
+              New York, NY .(347)882-9510.
               <a href="mailto:name@email.com" class="text-info">
                 mkabba34@gmail.com
               </a>
             </div>
             <p class="lead mb-5">
-             Full-Stack C# .NET software developer with an interest in electronic controls, and
-              designs .
+              Full-Stack C# .NET software developer with an interest in
+              electronic controls, and designs .
             </p>
-            
+
             <div class="social-icons">
-            <a class="social-icon" href="https://www.linkedin.com/in/mahamadou-kabba-747945221/!" ><i class="fa fa-linkedin"></i></a>
-            <a class="social-icon" href="https://github.com/moekabba"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="social-icon" href="#!"
-              ><i class="fab fa-facebook-f"></i></a>
-          </div>
+              <a
+                class="social-icon"
+                href="https://www.linkedin.com/in/mahamadou-kabba-747945221/"
+              >
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a class="social-icon" href="https://github.com/moekabba">
+                <i class="fab fa-github"></i>
+              </a>
+              <a class="social-icon" href="#!">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="social-icon" href="#!">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
           </div>
         </section>
 
@@ -121,12 +130,11 @@ function App() {
                 <a href="https://github.com/jpmare29/project-1-group-8-columbia">
                   <i class="fab fa-github ml-5"></i>
                 </a>
-           
+
                 <iframe
                   src="https://jpmare29.github.io/project-1-group-8-columbia/"
                   style={{ width: "100%", height: "30rem" }}
                 ></iframe>
-                
               </div>
             </div>
 
@@ -306,14 +314,12 @@ function App() {
               <li class="list-inline-item">
                 <i class="fab fa-node-js"></i>
               </li>
-              <li class="list-inline-item">
-                <i class="fab fa-less"></i>
-              </li>{" "}
+
               <li class="list-inline-item">
                 <i class="fab fa-wordpress"></i>
               </li>
               <li class="list-inline-item">
-                C#<i class=""></i>
+                C#<i class="fab fa-.NET"></i>
               </li>
               <li class="list-inline-item">
                 <i class="fab fa-docker"></i>
