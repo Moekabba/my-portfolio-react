@@ -76,6 +76,7 @@ function App() {
             </h1>
             <div class="subheading mb-5">
               New York, NY .(347)882-9510.
+              <br></br>
               <a href="mailto:name@email.com" class="text-info">
                 mkabba34@gmail.com
               </a>
