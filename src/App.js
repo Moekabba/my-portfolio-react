@@ -125,19 +125,27 @@ function App() {
                   recipes with their detailed instructions. This was a group
                   project I worked on.
                 </p>
-                <a href="https://jpmare29.github.io/project-1-group-8-columbia/">
-                  <i class="fas fa-link info"></i>
-                </a>
-                <a href="https://github.com/jpmare29/project-1-group-8-columbia">
-                  <i class="fab fa-github ml-5"></i>
-                </a>
+
+                <div class="social-icons">
+                  <p>
+                    Github link
+                    <br></br>
+                    <a
+                      class="social-icon"
+                      href="https://github.com/jpmare29/project-1-group-8-columbia"
+                    >
+                      <i class="social-icon fab fa-github"></i>
+                    </a>
+                  </p>
+                </div>
 
                 <iframe
                   src="https://jpmare29.github.io/project-1-group-8-columbia/"
-                  style={{ width: "100%", height: "30rem" }}
+                  style={{ width: "80%", height: "35rem" }}
                 ></iframe>
               </div>
             </div>
+            <br></br>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
@@ -149,16 +157,22 @@ function App() {
                   help plan your trip or an event. This app fetchs its data from
                   OpenWeather APi
                 </p>
-                <a href="https://moekabba.github.io/weather-dasboard/">
-                  <i class="fas fa-link"></i>
-                </a>
-                <a href="https://moekabba.github.io/weather-dasboard/">
-                  <i class="fab fa-github ml-3"></i>
-                </a>
+                <div class="social-icons">
+                  <p>
+                    Github link
+                    <br></br>
+                    <a
+                      class="social-icon"
+                      href="https://github.com/Moekabba/weather-dasboard"
+                    >
+                      <i class="social-icon fab fa-github"></i>
+                    </a>
+                  </p>
+                </div>
 
                 <iframe
                   src="https://moekabba.github.io/weather-dasboard/"
-                  style={{ width: "100%", height: "40rem" }}
+                  style={{ width: "80%", height: "35rem" }}
                 ></iframe>
               </div>
             </div>
@@ -168,16 +182,23 @@ function App() {
                 <h3 class="mb-0">Calculator</h3>
                 <div class="subheading mb-3">Simple Calculator App</div>
                 <p>This is simple calculate app built in vanilla JS</p>
-                <a href="https://moekabba.github.io/simple-js-calculator/">
-                  <i class="fas fa-link"></i>
-                </a>
-                <a href="https://github.com/Moekabba/simple-js-calculator">
-                  <i class="fab fa-github ml-3"></i>
-                </a>
+                <div class="social-icons">
+                  <p>
+                    Github link
+                    <br></br>
+                    <a
+                      class="social-icon"
+                      href="https://github.com/Moekabba/simple-js-calculator"
+                    >
+                      <i class="social-icon fab fa-github"></i>
+                    </a>
+                  </p>
+                </div>
+               
                 <div class="p-2" id="p2">
                   <iframe
                     src="https://moekabba.github.io/simple-js-calculator/"
-                    style={{ width: "300%", height: "45rem" }}
+                    style={{ width: "280%", height: "35rem" }}
                   ></iframe>
                 </div>
               </div>
@@ -193,17 +214,24 @@ function App() {
                   scores so you can measure and keep track of your progress.
                   (work in progress)
                 </p>
-                <a href="https://moekabba.github.io/code-quiz/">
-                  <i class="fas fa-link"></i>
-                </a>
-                <a href="https://github.com/Moekabba/code-quiz">
-                  <i class="fab fa-github ml-3"></i>
-                </a>
+                <div class="social-icons">
+                  <p>
+                    Github link
+                    <br></br>
+                    <a
+                      class="social-icon"
+                      href="https://github.com/Moekabba/code-quiz"
+                    >
+                      <i class="social-icon fab fa-github"></i>
+                    </a>
+                  </p>
+                </div>
+               
                 <div id="p2">
-                  <iframe
+                  {/* <iframe
                     src=" https://moekabba.github.io/code-quiz/"
                     style={{ width: "80%", height: "35rem" }}
-                  ></iframe>
+                  ></iframe> */}
                 </div>
               </div>
             </div>
@@ -220,12 +248,18 @@ function App() {
                   different variations of products. Authorization, signup, and
                   login state is handled via Redux.
                 </p>
-                <a href="https://dj-react-ecommerce.herokuapp.com/">
-                  <i class="fas fa-link"></i>
-                </a>
-                <a href="https://github.com/teddysmithdev/ecommerce">
-                  <i class="fab fa-github ml-3"></i>
-                </a>
+                <div class="social-icons">
+                  <p>
+                    Github link
+                    <br></br>
+                    <a
+                      class="social-icon"
+                      href="#"
+                    >
+                      <i class="social-icon fab fa-github"></i>
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -239,16 +273,23 @@ function App() {
                   construction company located in The Gambia
                 </p>
 
-                <a href="#">
-                  <i class="fas fa-link"></i>
-                </a>
+                <div class="social-icons">
+                  <p>
+                    Github link
+                    <br></br>
+                    <a
+                      class="social-icon"
+                      href="https://wdagambia.com"
+                    >
+                      <i class="social-icon fab fa-wordpress"></i>
+                    </a>
+                  </p>
+                </div>
                 <iframe
                   src=" https://wdagambia.com/"
-                  style={{ width: "100%", height: "45rem" }}
+                  style={{ width: "120%", height: "35rem" }}
                 ></iframe>
-                <a href="#">
-                  <i class="fab fa-github ml-3"></i>
-                </a>
+               
               </div>
             </div>
           </div>
