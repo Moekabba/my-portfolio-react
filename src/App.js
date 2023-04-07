@@ -4,12 +4,11 @@ function App() {
   return (
     <Fragment>
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-info   fixed-top"
-        id="sideNav"
-      >
+        class="navbar navbar-expand-lg navbar-dark bg-info fixed-top"
+        id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <span class="d-lg-none">MAHAMADOU KABBA</span>
-          <span class="d-none d-lg-block">
+          <span class="d-block d-lg-none">MAHAMADOU KABBA</span>
+          <span class="d-block d-none d-lg-block">
             <img
               class="img-fluid img-profile rounded-circle mx-auto mb-2"
               src="imgs/kabzz.png"
@@ -85,7 +84,7 @@ function App() {
                 mkabba34@gmail.com
               </a>
             </div>
-            <p class="lead mb-5">
+            <p class="lead mb-3">
               Full-Stack C# .NET software developer with an interest in
               electronic controls, and designs.
             </p>
