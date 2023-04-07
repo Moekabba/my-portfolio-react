@@ -13,22 +13,23 @@ function App() {
             <img
               class="img-fluid img-profile rounded-circle mx-auto mb-2"
               src="imgs/kabzz.png"
-              alt=""
+              alt="kabba's selfie image"
             ></img>
           </span>
         </a>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
           data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">
@@ -63,17 +64,20 @@ function App() {
           </ul>
         </div>
       </nav>
-
+{/* page content  */}
       <div class="container-fluid p-0">
         <section
           class="resume-section p-3 p-lg-5 d-flex align-items-center"
           id="about"
         >
           <div class="w-100">
-            <h1 class="mb-2">
+            <div class="kabba">
+            <h1 class="mb-3">
               MAHAMADOU
-              <span class="text-info">KABBA</span>
+              <span class="text-info" id="kabba">KABBA</span>
             </h1>
+            </div>
+            
             <div class="subheading mb-5">
               New York, NY .(347)882-9510.
               <br></br>
@@ -354,6 +358,9 @@ function App() {
                 <i class="fab fa-react"></i>
               </li>
               <li class="list-inline-item">
+                <i class="fab fa-vue"></i>
+              </li>
+              <li class="list-inline-item">
                 <i class="fab fa-node-js"></i>
               </li>
 
@@ -381,7 +388,7 @@ function App() {
             <ul class="fa-ul mb-0">
               <li>
                 <i class="fa-li fa fa-check"></i>
-                React
+                React, Vue.js
               </li>
               <li>
                 <i class="fa-li fa fa-check"></i>
