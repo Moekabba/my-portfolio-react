@@ -74,7 +74,7 @@ function App() {
             <div class="kabba">
             <h1 class="mb-3">
               MAHAMADOU
-              <span class="text-info" id="kabba">KABBA</span>
+              <span class="text-info">KABBA</span>
             </h1>
             </div>
             
@@ -87,15 +87,14 @@ function App() {
             </div>
             <p class="lead mb-5">
               Full-Stack C# .NET software developer with an interest in
-              electronic controls, and designs .
+              electronic controls, and designs.
             </p>
 
             <div class="social-icons">
               <a
                 class="social-icon"
-                href="https://www.linkedin.com/in/mahamadou-kabba-747945221/"
-              >
-                <i class="fa fa-linkedin"></i>
+                href="https://www.linkedin.com/in/mahamadou-kabba-747945221/">
+                <i class="fab fa-linkedin-in"></i>
               </a>
               <a class="social-icon" href="https://github.com/moekabba">
                 <i class="fab fa-github"></i>
