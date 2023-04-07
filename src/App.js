@@ -357,7 +357,7 @@ function App() {
                 <i class="fab fa-react"></i>
               </li>
               <li class="list-inline-item">
-                <i class="fab fa-vue"></i>
+                <i class="fab fa-vuejs"></i>
               </li>
               <li class="list-inline-item">
                 <i class="fab fa-node-js"></i>
@@ -367,7 +367,7 @@ function App() {
                 <i class="fab fa-wordpress"></i>
               </li>
               <li class="list-inline-item">
-                C#<i class="fab fa-.NET"></i>
+                C#<i class="#"></i>
               </li>
               <li class="list-inline-item">
                 <i class="fab fa-docker"></i>
