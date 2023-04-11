@@ -5,7 +5,8 @@ function App() {
     <Fragment>
       <nav
         class="navbar navbar-expand-lg navbar-dark bg-info fixed-top"
-        id="sideNav">
+        id="sideNav"
+      >
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <span class="d-block d-lg-none">MAHAMADOU KABBA</span>
           <span class="d-block d-none d-lg-block">
@@ -63,7 +64,7 @@ function App() {
           </ul>
         </div>
       </nav>
-{/* page content  */}
+      {/* page content  */}
       <div class="container-fluid p-0">
         <section
           class="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -71,12 +72,12 @@ function App() {
         >
           <div class="w-100">
             <div class="kabba">
-            <h1 class="mb-3">
-              MAHAMADOU
-              <span class="text-info">KABBA</span>
-            </h1>
+              <h1 class="mb-3">
+                MAHAMADOU
+                <span class="text-info">KABBA</span>
+              </h1>
             </div>
-            
+
             <div class="subheading mb-5">
               New York, NY .(347)882-9510.
               <br></br>
@@ -92,7 +93,8 @@ function App() {
             <div class="social-icons">
               <a
                 class="social-icon"
-                href="https://www.linkedin.com/in/mahamadou-kabba-747945221/">
+                href="https://www.linkedin.com/in/mahamadou-kabba-747945221/"
+              >
                 <i class="fab fa-linkedin-in"></i>
               </a>
               <a class="social-icon" href="https://github.com/moekabba">
@@ -116,6 +118,50 @@ function App() {
         >
           <div class="w-100">
             <h2 class="mb-5">Projects</h2>
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class="resume-content">
+                <h3 class="mb-0">MedTrak</h3>
+                <div class="subheading mb-3">
+                  An App to help you with your medication intake.
+                </div>
+                <p>
+                  This app is developed as your personal pharmacists to help you
+                  with your medication intake. A new user will have the option
+                  to create an account. An existing user will be able to log in
+                  with their credentials. If you are a new user, the aplication
+                  will ask you to add you medications (CREATE). If you are an
+                  existing user, you will have the option to view your
+                  medications (READ). If you meds run out, you can refill
+                  or change your medications (UPDATE). If you are no longer on a
+                  medication, you can remove or delete that medicine (DELETE).
+                </p>
+
+                <div class="social-icons">
+                  Github link
+                  <br></br>
+                  <a
+                    class="social-icon"
+                    href="https://github.com/220425-Reston-NET/Alphacode-reactFrontEnd"
+                  >
+                    <i class="social-icon fab fa-github"></i>
+                  </a>
+                  {/*  backend link */}
+                  <a
+                    class="social-icon"
+                    href="https://github.com/220425-Reston-NET/Alpha_Code_P2"
+                  >
+                    <i class="social-icon fab fa-github"></i>
+                  </a>
+                </div>
+                <img
+                  src={
+                    "https://raw.githubusercontent.com/220425-Reston-NET/Alphacode-reactFrontEnd/main/public/images/medtrak.png"
+                  }
+                  alt="Logo"
+                  style={{ width: "80%", height: "35rem" }}
+                />
+              </div>
+            </div>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
@@ -178,7 +224,7 @@ function App() {
                 ></iframe>
               </div>
             </div>
-
+{/* 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
                 <h3 class="mb-0">Calculator</h3>
@@ -196,7 +242,7 @@ function App() {
                     </a>
                   </p>
                 </div>
-               
+
                 <div class="p-2" id="p2">
                   <iframe
                     src="https://moekabba.github.io/simple-js-calculator/"
@@ -204,7 +250,7 @@ function App() {
                   ></iframe>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
@@ -228,7 +274,7 @@ function App() {
                     </a>
                   </p>
                 </div>
-               
+
                 <div id="p2">
                   {/* <iframe
                     src=" https://moekabba.github.io/code-quiz/"
@@ -254,10 +300,7 @@ function App() {
                   <p>
                     Github link
                     <br></br>
-                    <a
-                      class="social-icon"
-                      href="#"
-                    >
+                    <a class="social-icon" href="#">
                       <i class="social-icon fab fa-github"></i>
                     </a>
                   </p>
@@ -279,10 +322,7 @@ function App() {
                   <p>
                     Github link
                     <br></br>
-                    <a
-                      class="social-icon"
-                      href="https://wdagambia.com"
-                    >
+                    <a class="social-icon" href="https://wdagambia.com">
                       <i class="social-icon fab fa-wordpress"></i>
                     </a>
                   </p>
@@ -291,7 +331,6 @@ function App() {
                   src=" https://wdagambia.com/"
                   style={{ width: "120%", height: "35rem" }}
                 ></iframe>
-               
               </div>
             </div>
           </div>
