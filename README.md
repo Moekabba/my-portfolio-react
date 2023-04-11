@@ -1,12 +1,26 @@
-This is my portfolio  website built in React.js
-I built this website to showcase my technical and non technical skills
+# Personal Portfolio
 
-#Technologies used:
-* HTML
-* CSS
-* JS(ES6)
-* Bootstrap
-* React
+## Table of Contents
+
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+
+## Overview
+
+![](public/imgs/po.png)
+### Built With
+HTML, CSS, JavaScript, Bootstrap, React
 
 
-# Here is my "home" address mkabba.link
+## Features
+
+Simple portfolio to showcase my projects
+
+## Contact
+
+
+
+
+# Here is my "home" address mkabba.com
