@@ -300,7 +300,7 @@ function App() {
                   <p>
                     Github link
                     <br></br>
-                    <a class="social-icon" href="">
+                    <a class="social-icon" href="https://github.com/Moekabba/my-e-commerce-app">
                       <i class="social-icon fab fa-github"></i>
                     </a>
                   </p>
