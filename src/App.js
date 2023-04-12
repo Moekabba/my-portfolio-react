@@ -86,8 +86,8 @@ function App() {
               </a>
             </div>
             <p class="lead mb-3">
-              Full-Stack C# .NET software developer with an interest in
-              electronic controls, and designs.
+              Full-Stack C# .NET software developer with an interest in DevOps,
+              and Cloud Engineering.
             </p>
 
             <div class="social-icons">
@@ -131,8 +131,8 @@ function App() {
                   with their credentials. If you are a new user, the aplication
                   will ask you to add you medications (CREATE). If you are an
                   existing user, you will have the option to view your
-                  medications (READ). If you meds run out, you can refill
-                  or change your medications (UPDATE). If you are no longer on a
+                  medications (READ). If you meds run out, you can refill or
+                  change your medications (UPDATE). If you are no longer on a
                   medication, you can remove or delete that medicine (DELETE).
                 </p>
 
@@ -224,7 +224,7 @@ function App() {
                 ></iframe>
               </div>
             </div>
-{/* 
+            {/* 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
                 <h3 class="mb-0">Calculator</h3>
@@ -300,7 +300,7 @@ function App() {
                   <p>
                     Github link
                     <br></br>
-                    <a class="social-icon" href="#">
+                    <a class="social-icon" href="">
                       <i class="social-icon fab fa-github"></i>
                     </a>
                   </p>
@@ -455,11 +455,18 @@ function App() {
         >
           <div class="w-100">
             <h2 class="mb-5">Hobbies and Interests </h2>
-            <p>In my spare time, I like to play vidoe games and soccer.</p>
+            <p>
+              In my spare time, I like to play soccer. My friends and I meet up
+              about every Sunday to play friendly games near my house.
+            </p>
+            <p>
+              {" "}
+              I like CAD drawings, mainly, with AutoCad & Revit. I also enjoy
+              playing videogames like FIFA.
+            </p>
 
             <p>
-              I also like spending time with my family and friends when I'm not
-              playing vidoe games or coding.
+              I also like spending time with my family and friends.
             </p>
 
             <p class="mb-0"></p>
