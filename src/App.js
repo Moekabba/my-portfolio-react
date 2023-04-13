@@ -421,28 +421,28 @@ function App() {
               </li>
             </ul>
 
-            <div class="subheading mb-3">Tools</div>
+            <div class="subheading mb-3">WORKFLOW</div>
             <ul class="fa-ul mb-0">
               <li>
                 <i class="fa-li fa fa-check"></i>
-                React, Vue.js
+                Agile Development & Scrum
               </li>
               <li>
                 <i class="fa-li fa fa-check"></i>
-                C#
+                Cross Functional Teams
               </li>
               <li>
                 <i class="fa-li fa fa-check"></i>
-                ASP.NET Web API, and Express
+                Responsive Design
               </li>
-              <li>
+              {/* <li>
                 <i class="fa-li fa fa-check"></i>
                 Git & Github
               </li>
               <li>
                 <i class="fa-li fa fa-check"></i>
                 AutoCad & Revit
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>
