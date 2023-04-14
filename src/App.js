@@ -361,6 +361,7 @@ function App() {
               <div class="resume-content">
                 <h3 class="mb-0">NYC College of Technology</h3>
                 <div class="subheading mb-3">Bachelor of science</div>
+                <div>Electrical Engineering Technology</div>
                 {/* <p>GPA: 0.0</p> */}
               </div>
               <div class="resume-date text-md-right">
